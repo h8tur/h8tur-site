@@ -74,6 +74,7 @@ h1:hover {
     -webkit-background-clip: text;
     background-clip: text;
     text-shadow: none;
+    transition: font-size 0.35s, color 0.35s;
 }
 
 .profile-picture {
