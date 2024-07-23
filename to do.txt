@@ -1,2 +1,0 @@
-add moving stars to tab name
-add tab image or remove world image
