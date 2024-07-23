@@ -1,0 +1,60 @@
+body {
+    background-image: url('h8tur-bg2.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica', sans-serif;
+}
+
+header {
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 3.5em;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: #fff;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: -15px;
+}
+
+.social-icon {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+    margin: 20px;
+    font-size: 35px;
+    transition: font-size 0.35s, color 0.35s;
+}
+
+.social-icon:hover {
+    font-size: 50px;
+    color: transparent;
+    background: linear-gradient(-45deg, #00aaff, #2141f3);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.icon-container {
+    margin-top: 30px;
+}
