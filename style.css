@@ -61,7 +61,7 @@ h1 {
     margin-bottom: 10px;
     color: #fff;
     text-shadow: 0 0 25px rgba(255, 255, 255, 0.75);
-    transition: font-size 0.35s, font-weight 0.35s, text-shadow 0.35s, color 0.35s;
+    transition: font-size 0.35s, font-weight 0.35s, color 0.35s;
 }
 
 h1:hover {
@@ -71,7 +71,7 @@ h1:hover {
     margin-bottom: 10px;
     color: transparent;
     background: linear-gradient(-90deg, #00aaff, #2141f3);
-    text-shadow: 0 0 25px rgb(255, 0, 0, 1);
+    text-shadow: 0 0 25px rgb(0, 0, 0, 0);
     -webkit-background-clip: text;
     background-clip: text;
     text-shadow: none;
@@ -91,14 +91,14 @@ h1:hover {
     text-shadow: 0 0 25px rgba(255, 255, 255, 0.75);
     margin: 20px;
     font-size: 40px;
-    transition: font-size 0.35s, text-shadow 0.35s, color 0.35s;
+    transition: font-size 0.35s, color 0.35s;
 }
 
 .social-icon:hover {
     font-size: 60px;
     color: transparent;
     background: linear-gradient(-90deg, #00aaff, #2141f3);
-    text-shadow: 0 0 25px rgb(255, 0, 0, 1);
+    text-shadow: 0 0 25px rgb(0, 0, 0, 0);
     -webkit-background-clip: text;
     background-clip: text;
     text-shadow: none;
