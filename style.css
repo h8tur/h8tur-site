@@ -74,7 +74,7 @@ body {
     background: linear-gradient(
     to right,
     #0059ff, #0077ff, #00ccff);
-    background-size: 150% 150%;
+    background-size: 200% 200%;
     animation: glowing 10s infinite ease-in-out;
     text-shadow: 0 0 25px rgb(0, 0, 0, 0);
     -webkit-background-clip: text;
@@ -116,7 +116,7 @@ body {
     background: linear-gradient(
     to right,
     #0059ff, #0077ff, #00ccff);
-    background-size: 100% 100%;
+    background-size: 150% 150%;
     animation: glowing 10s infinite ease-in-out;
     -webkit-background-clip: text;
     background-clip: text;
