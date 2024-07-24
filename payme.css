@@ -40,14 +40,12 @@ h1 {
   width: 200%;
   height: 200%;
   background: linear-gradient(
-    45deg,
-    #ff7300, #ff8800, #ffa600
-  );
+    to right,
+    #ff6600, #ff7b00, #ffa600);
   top: -50%;
   left: -50%;
-  background-size: 300% 300%;
-  filter: blur(8px);
-  animation: glowing 3s infinite alternate-reverse;
+  background-size: 400% 400%;
+  animation: glowing 10s infinite ease-in-out;
   border-radius: 12px;
 }
 
@@ -74,14 +72,12 @@ h1 {
   width: 200%;
   height: 200%;
   background: linear-gradient(
-    45deg,
-    #44347e, #38296d, #634cb8
-  );
+    to right,
+    #38296d, #44347e, #634cb8);
   top: -50%;
   left: -50%;
-  background-size: 300% 300%;
-  filter: blur(8px);
-  animation: glowing 3s infinite alternate-reverse;
+  background-size: 400% 400%;
+  animation: glowing 10s infinite ease-in-out;
   border-radius: 12px;
 }
 
@@ -108,22 +104,23 @@ h1 {
   width: 200%;
   height: 200%;
   background: linear-gradient(
-    45deg,
-    #0fb300, #0a7a00, #15ff00
-  );
+    to right,
+    #0a7a00, #0fb300, #15ff00);
   top: -50%;
   left: -50%;
-  background-size: 300% 300%;
-  filter: blur(8px);
-  animation: glowing 3s infinite alternate-reverse;
+  background-size: 400% 400%;
+  animation: glowing 10s infinite ease-in-out;
   border-radius: 12px;
 }
 
 @keyframes glowing {
   0% {
-    background-position: 0 0;
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 400% 0;
+    background-position: 0 50%;
   }
 }
