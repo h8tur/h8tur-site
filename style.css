@@ -86,6 +86,14 @@ header a {
     height: 225px;
     border-radius: 50%;
     margin-bottom: -25px;
+    transition: width 0.35s, height 0.35s, margin-bottom 0.35s;
+}
+
+.profile-picture:hover {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin-bottom: -25px;
 }
 
 .social-icon {
