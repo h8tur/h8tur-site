@@ -12,48 +12,48 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Helvetica', sans-serif;
-}
+    }
 
-@keyframes transitionIn {
+    @keyframes transitionIn {
     from{
         opacity: 0;
         transform: rotateX(-10deg);
     }
-    
+
     to {
         opacity: 1;
         transform: rotateX(0);
     }
 
-}
+    }
 
-@keyframes slideInBottom {
+    @keyframes slideInBottom {
     from{
         transform: translateY(20px);
     }
-    
+
     to {
         transform: translateY(0);
     }
 
-}
+    }
 
-body {
+    body {
     animation: transitionIn 0.75s
-}
+    }
 
-.container {
+    .container {
     animation: slideInBottom 0.75s ease;
-}
+    }
 
-header {
+    header {
     font-family: 'Helvetica', sans-serif;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-}
+    }
 
-h1 {
+    h1 {
     font-family: 'Helvetica', sans-serif;
     text-align: center;
     font-size: 3.75em;
@@ -62,41 +62,45 @@ h1 {
     color: #fff;
     text-shadow: 0 0 25px rgba(255, 255, 255, 0.75);
     transition: font-size 0.35s, font-weight 0.35s, margin-bottom 0.35s, margin-top 0.35s, color 0.35s;
-}
+    }
 
-h1:hover {
+    h1:hover {
     font-family: 'Helvetica', sans-serif;
     font-size: 4.75em;
     font-weight: bold;
     margin-bottom: 5px;
     margin-top: 40px;
     color: transparent;
-    background: linear-gradient(-90deg, #00aaff, #2141f3);
+    background: linear-gradient(
+    to right,
+    #0059ff, #0077ff, #00ccff);
+    background-size: 150% 150%;
+    animation: glowing 10s infinite ease-in-out;
     text-shadow: 0 0 25px rgb(0, 0, 0, 0);
     -webkit-background-clip: text;
     background-clip: text;
-}
+    }
 
-header a {
+    header a {
     text-decoration: none;
-}
+    }
 
-.profile-picture {
+    .profile-picture {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-bottom: -25px;
     transition: width 0.35s, height 0.35s, margin-bottom 0.35s;
-}
+    }
 
-.profile-picture:hover {
+    .profile-picture:hover {
     width: 210px;
     height: 210px;
     border-radius: 50%;
     margin-bottom: -25px;
-}
+    }
 
-.social-icon {
+    .social-icon {
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -104,18 +108,33 @@ header a {
     margin: 20px;
     font-size: 40px;
     transition: font-size 0.35s, color 0.35s;
-}
+    }
 
-.social-icon:hover {
+    .social-icon:hover {
     font-size: 60px;
     color: transparent;
-    background: linear-gradient(-90deg, #00aaff, #2141f3);
-    text-shadow: 0 0 25px rgb(0, 0, 0, 0);
+    background: linear-gradient(
+    to right,
+    #0059ff, #0077ff, #00ccff);
+    background-size: 100% 100%;
+    animation: glowing 10s infinite ease-in-out;
     -webkit-background-clip: text;
     background-clip: text;
     text-shadow: none;
-}
+    }
 
-.icon-container {
+    .icon-container {
     margin-top: 10px;
-}
+    }
+
+    @keyframes glowing {
+    0% {
+    background-position: 0 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0 50%;
+    }
+    }
