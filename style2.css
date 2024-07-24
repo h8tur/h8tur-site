@@ -40,13 +40,13 @@ h1 {
   height: 200%;
   background: linear-gradient(
     45deg,
-    #ff8800, #ffa600
+    #ff7300, #ff8800, #ffa600
   );
   top: -50%;
   left: -50%;
   background-size: 300% 300%;
   filter: blur(8px);
-  animation: glowing 6s infinite alternate;
+  animation: glowing 3s infinite alternate-reverse;
   border-radius: 12px;
 }
 
@@ -73,13 +73,13 @@ h1 {
   height: 200%;
   background: linear-gradient(
     45deg,
-    #44347e, #634cb8
+    #44347e, #38296d, #634cb8
   );
   top: -50%;
   left: -50%;
   background-size: 300% 300%;
   filter: blur(8px);
-  animation: glowing 6s infinite alternate;
+  animation: glowing 3s infinite alternate-reverse;
   border-radius: 12px;
 }
 
@@ -106,13 +106,13 @@ h1 {
   height: 200%;
   background: linear-gradient(
     45deg,
-    #0fb300, #15ff00
+    #0fb300, #0a7a00, #15ff00
   );
   top: -50%;
   left: -50%;
   background-size: 300% 300%;
   filter: blur(8px);
-  animation: glowing 6s infinite alternate;
+  animation: glowing 3s infinite alternate-reverse;
   border-radius: 12px;
 }
 
