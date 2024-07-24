@@ -18,6 +18,7 @@ h1 {
 }
 
 .btc {
+  text-decoration: none;
   font-size: large;
   font-weight: bolder;
   margin: 10px;
@@ -51,6 +52,7 @@ h1 {
 }
 
 .eth {
+  text-decoration: none;
   font-size: large;
   font-weight: bolder;
   margin: 10px;
@@ -84,6 +86,7 @@ h1 {
 }
 
 .cashapp {
+  text-decoration: none;
   font-size: large;
   font-weight: bolder;
   margin: 10px;
