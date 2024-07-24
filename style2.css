@@ -14,25 +14,25 @@ html, body {
 }
 
 h1 {
-  margin-bottom: 10px; /* Adjust as needed */
+  margin-bottom: 5px;
 }
 
-.btn {
+.btc {
   font-size: large;
   font-weight: bolder;
-  margin: 20px; /* Adjust margin to your preference */
-  padding: 15px 40px;
+  margin: 10px;
+  padding: 15px 20px;
   border: none;
   outline: none;
-  color: white; /* Make text visible */
+  color: white;
   cursor: pointer;
   position: relative;
   z-index: 0;
   border-radius: 12px;
-  overflow: hidden; /* Ensures the gradient overflow is hidden */
+  overflow: hidden;
 }
 
-.btn::after {
+.btc::after {
   content: "";
   z-index: -1;
   position: absolute;
@@ -40,12 +40,77 @@ h1 {
   height: 200%;
   background: linear-gradient(
     45deg,
-    #FF0000, #FF7300, #FFFB00, #48FF00,
-    #00FFD5, #002BFF, #FF00C8, #FF0000
+    #ff8800, #ffa600
   );
   top: -50%;
   left: -50%;
-  background-size: 300% 300%; /* Adjust gradient size as needed */
+  background-size: 300% 300%;
+  filter: blur(8px);
+  animation: glowing 6s infinite alternate;
+  border-radius: 12px;
+}
+
+.eth {
+  font-size: large;
+  font-weight: bolder;
+  margin: 10px;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.eth::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    #44347e, #634cb8
+  );
+  top: -50%;
+  left: -50%;
+  background-size: 300% 300%;
+  filter: blur(8px);
+  animation: glowing 6s infinite alternate;
+  border-radius: 12px;
+}
+
+.cashapp {
+  font-size: large;
+  font-weight: bolder;
+  margin: 10px;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.cashapp::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    #0fb300, #15ff00
+  );
+  top: -50%;
+  left: -50%;
+  background-size: 300% 300%;
   filter: blur(8px);
   animation: glowing 6s infinite alternate;
   border-radius: 12px;
