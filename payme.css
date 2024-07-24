@@ -17,6 +17,12 @@ h1 {
   margin-bottom: 10px;
 }
 
+h3 {
+  color: #252525;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
 .btc {
   text-decoration: none;
   font-size: large;
