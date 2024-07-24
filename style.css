@@ -1,0 +1,140 @@
+body {
+    background-image: url('h8tur-bg2.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica', sans-serif;
+    }
+
+    @keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+    }
+
+    @keyframes slideInBottom {
+    from{
+        transform: translateY(20px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+
+    }
+
+    body {
+    animation: transitionIn 0.75s
+    }
+
+    .container {
+    animation: slideInBottom 0.75s ease;
+    }
+
+    header {
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    }
+
+    h1 {
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    font-size: 3.75em;
+    font-weight: normal;
+    margin-bottom: 0px;
+    color: #fff;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.75);
+    transition: font-size 0.35s, font-weight 0.35s, margin-bottom 0.35s, margin-top 0.35s, color 0.35s;
+    }
+
+    h1:hover {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 4.75em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    color: transparent;
+    background: linear-gradient(
+    to right,
+    #0059ff, #0077ff, #00ccff);
+    background-size: 200% 200%;
+    animation: glowing 10s infinite ease-in-out;
+    text-shadow: 0 0 25px rgb(0, 0, 0, 0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    }
+
+    header a {
+    text-decoration: none;
+    }
+
+    .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: -25px;
+    transition: width 0.35s, height 0.35s, margin-bottom 0.35s;
+    }
+
+    .profile-picture:hover {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin-bottom: -25px;
+    }
+
+    .social-icon {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.75);
+    margin: 20px;
+    font-size: 40px;
+    transition: font-size 0.35s, color 0.35s;
+    }
+
+    .social-icon:hover {
+    font-size: 60px;
+    color: transparent;
+    background: linear-gradient(
+    to right,
+    #0059ff, #0077ff, #00ccff);
+    background-size: 150% 150%;
+    animation: glowing 10s infinite ease-in-out;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: none;
+    }
+
+    .icon-container {
+    margin-top: 10px;
+    }
+
+    @keyframes glowing {
+    0% {
+    background-position: 0 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0 50%;
+    }
+    }
