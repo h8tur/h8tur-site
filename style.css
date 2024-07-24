@@ -73,9 +73,9 @@ body {
     color: transparent;
     background: linear-gradient(
     to right,
-    #0059ff, #0077ff, #00ccff);
-    background-size: 200% 200%;
-    animation: glowing 10s infinite ease-in-out;
+    #0a5c36, #0f5132, #14452F, #18392b, #1d2e28, #18392b, #14452F, #0f5132, #0a5c36);
+    background-size: 400% 400%;
+    animation: glowing 3s infinite ease-in-out;
     text-shadow: 0 0 25px rgb(0, 0, 0, 0);
     -webkit-background-clip: text;
     background-clip: text;
@@ -100,7 +100,7 @@ body {
     margin-bottom: -25px;
     }
 
-    .social-icon {
+    .social-icon1 {
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -110,14 +110,83 @@ body {
     transition: font-size 0.35s, color 0.35s;
     }
 
-    .social-icon:hover {
+    .social-icon1:hover {
     font-size: 60px;
     color: transparent;
     background: linear-gradient(
     to right,
-    #0059ff, #0077ff, #00ccff);
-    background-size: 150% 150%;
-    animation: glowing 10s infinite ease-in-out;
+    #1DA1F2, #1781c4, #1DA1F2);
+    background-size: 400% 400%;
+    animation: glowing 3s infinite ease-in-out;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: none;
+    }
+
+    .social-icon2 {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.75);
+    margin: 20px;
+    font-size: 40px;
+    transition: font-size 0.35s, color 0.35s;
+    }
+
+    .social-icon2:hover {
+    font-size: 60px;
+    color: transparent;
+    background: linear-gradient(
+    to right,
+    #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    background-size: 400% 400%;
+    animation: glowing 3s infinite ease-in-out;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: none;
+    }
+
+    .social-icon3 {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.75);
+    margin: 20px;
+    font-size: 40px;
+    transition: font-size 0.35s, color 0.35s;
+    }
+
+    .social-icon3:hover {
+    font-size: 60px;
+    color: transparent;
+    background: linear-gradient(
+    to right,
+    #040404, #fe2858, #2af0ea, #397684, #040404);
+    background-size: 400% 400%;
+    animation: glowing 3s infinite ease-in-out;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: none;
+    }
+
+    .social-icon4 {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.75);
+    margin: 20px;
+    font-size: 40px;
+    transition: font-size 0.35s, color 0.35s;
+    }
+
+    .social-icon4:hover {
+    font-size: 60px;
+    color: transparent;
+    background: linear-gradient(
+    to right,
+    #651fff, #6d2aff, #7c40ff, #9b6dff);
+    background-size: 400% 400%;
+    animation: glowing 3s infinite ease-in-out;
     -webkit-background-clip: text;
     background-clip: text;
     text-shadow: none;
