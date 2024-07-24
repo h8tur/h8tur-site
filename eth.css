@@ -25,7 +25,7 @@ html, body {
   height: 250px;
   background: linear-gradient(
     to right,
-    #ff6600, #ff7b00, #ffa600);
+    #38296d, #44347e, #634cb8);
   background-size: 400% 400%;
   animation: glowing 10s infinite ease-in-out;
   border-radius: 20px;
