@@ -11,24 +11,24 @@ html, body {
   background-color: #161616;
   overflow: hidden;
   transform: scale(1.25);
-}
+  }
 
-h1 {
+  h1 {
   margin-bottom: 10px;
-}
+  }
 
-h3 {
+  h3 {
   color: #252525;
   margin-top: 15px;
   margin-bottom: 10px;
-}
+  }
 
-.btc {
+  .btc {
   text-decoration: none;
-  font-size: large;
-  font-weight: bolder;
+  font-size: 1em;
+  font-weight: bold;
   margin: 10px;
-  padding: 15px 20px;
+  padding: 15px 10px;
   border: none;
   outline: none;
   color: white;
@@ -37,30 +37,35 @@ h3 {
   z-index: 0;
   border-radius: 12px;
   overflow: hidden;
-}
+  transition: font-size 0.25s
+  }
 
-.btc::after {
+  .btc:hover {
+  font-size: 1.25em;
+  }
+
+  .btc::after {
   content: "";
   z-index: -1;
   position: absolute;
   width: 200%;
   height: 200%;
   background: linear-gradient(
-    to right,
-    #f2a900, #d38f00, #b47500, #965d00, #b47500, #d38f00, #f2a900);
+  to right,
+  #f2a900, #d38f00, #b47500, #965d00, #b47500, #d38f00, #f2a900);
   background-size: 200% 200%;
   animation: glowing 3s infinite ease-in-out;
   top: -50%;
   left: -50%;
   border-radius: 12px;
-}
+  }
 
-.eth {
+  .eth {
   text-decoration: none;
-  font-size: large;
-  font-weight: bolder;
+  font-size: 1em;
+  font-weight: bold;
   margin: 10px;
-  padding: 15px 20px;
+  padding: 15px 10px;
   border: none;
   outline: none;
   color: white;
@@ -69,30 +74,35 @@ h3 {
   z-index: 0;
   border-radius: 12px;
   overflow: hidden;
-}
+  transition: font-size 0.25s
+  }
 
-.eth::after {
+  .eth:hover {
+  font-size: 1.25em;
+  }
+
+  .eth::after {
   content: "";
   z-index: -1;
   position: absolute;
   width: 200%;
   height: 200%;
   background: linear-gradient(
-    to right,
+  to right,
   #dbc9ff, #36325e, #3a1b5a, #36325e, #dbc9ff);
   background-size: 200% 200%;
   animation: glowing 3s infinite ease-in-out;
   top: -50%;
   left: -50%;
   border-radius: 12px;
-}
+  }
 
-.cashapp {
+  .cashapp {
   text-decoration: none;
-  font-size: large;
-  font-weight: bolder;
+  font-size: 1em;
+  font-weight: bold;
   margin: 10px;
-  padding: 15px 20px;
+  padding: 15px 15px;
   border: none;
   outline: none;
   color: white;
@@ -101,25 +111,51 @@ h3 {
   z-index: 0;
   border-radius: 12px;
   overflow: hidden;
-}
+  display: table;
+  transition: font-size 0.25s
+  }
 
-.cashapp::after {
+  .cashapp:hover {
+  font-size: 1.5em;
+  }
+
+  .cashapp::after {
   content: "";
   z-index: -1;
   position: absolute;
   width: 200%;
   height: 200%;
   background: linear-gradient(
-    to right,
-    #00cf31, #00a727, #008b21, #00a727, #00cf31);
+  to right,
+  #00cf31, #00a727, #008b21, #00a727, #00cf31);
   background-size: 200% 200%;
   animation: glowing 3s infinite ease-in-out;
   top: -50%;
   left: -50%;
   border-radius: 12px;
-}
+  }
 
-@keyframes glowing {
+  .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .btc {
+  animation: slideInBottom 0.75s ease;
+  }
+
+  .eth {
+  animation: slideInBottom 1.0s ease;
+  }
+
+  .cash {
+  animation: slideInBottom 1.25s ease;
+  }
+
+
+  @keyframes glowing {
   0% {
   background-position: 0 50%;
   }
@@ -129,4 +165,15 @@ h3 {
   100% {
   background-position: 0 50%;
   }
+  }
+
+  @keyframes slideInBottom {
+  from{
+  transform: translateY(30px);
+  }
+
+  to {
+  transform: translateY(0);
+  }
+
   }
