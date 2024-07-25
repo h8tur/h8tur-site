@@ -25,9 +25,9 @@ html, body {
   height: 250px;
   background: linear-gradient(
     to right,
-    #ff6600, #ff7b00, #ffa600);
-  background-size: 400% 400%;
-  animation: glowing 10s infinite ease-in-out;
+    #f2a900, #d38f00, #b47500, #965d00, #b47500, #d38f00, #f2a900);
+    background-size: 200% 200%;
+    animation: glowing 3s infinite ease-in-out;
   border-radius: 20px;
   }
 
@@ -43,6 +43,13 @@ html, body {
 
   h1 {
   text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  h3 {
+  text-align: center;
+  color: #353535;
+  margin-top: 0px;
   margin-bottom: 20px;
   }
 
