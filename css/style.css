@@ -1,0 +1,206 @@
+body {
+    background-image: url('../images/h8tur-bg2.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica', sans-serif;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+}
+
+@keyframes slideInBottom {
+    from {
+        transform: translateY(20px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+
+}
+
+body {
+    animation: transitionIn 0.75s
+}
+
+.container {
+    animation: slideInBottom 0.75s ease;
+}
+
+header {
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    font-size: 3.75em;
+    font-weight: normal;
+    margin-bottom: 0px;
+    color: #fff;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.75);
+    transition: font-size 0.35s, font-weight 0.35s, margin-bottom 0.35s, margin-top 0.35s, color 0.35s;
+}
+
+h1:hover {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 4.75em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    color: transparent;
+    background: linear-gradient(to right,
+            #0a5c36, #0f5132, #14452F, #18392b, #1d2e28, #18392b, #14452F, #0f5132, #0a5c36);
+    background-size: 400% 400%;
+    animation: glowing 3s infinite ease-in-out;
+    text-shadow: 0 0 25px rgb(0, 0, 0, 0);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: -25px;
+    transition: width 0.35s, height 0.35s, margin-bottom 0.35s;
+}
+
+.profile-picture:hover {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin-bottom: -25px;
+}
+
+.social-icon1 {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.75);
+    margin: 20px;
+    font-size: 40px;
+    transition: font-size 0.35s, color 0.35s;
+}
+
+.social-icon1:hover {
+    font-size: 60px;
+    color: transparent;
+    background: linear-gradient(to right,
+            #1DA1F2, #1781c4, #1DA1F2);
+    background-size: 400% 400%;
+    animation: glowing 3s infinite ease-in-out;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: none;
+}
+
+.social-icon2 {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.75);
+    margin: 20px;
+    font-size: 40px;
+    transition: font-size 0.35s, color 0.35s;
+}
+
+.social-icon2:hover {
+    font-size: 60px;
+    color: transparent;
+    background: linear-gradient(to right,
+            #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    background-size: 400% 400%;
+    animation: glowing 3s infinite ease-in-out;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: none;
+}
+
+.social-icon3 {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.75);
+    margin: 20px;
+    font-size: 40px;
+    transition: font-size 0.35s, color 0.35s;
+}
+
+.social-icon3:hover {
+    font-size: 60px;
+    color: transparent;
+    background: linear-gradient(to right,
+            #040404, #fe2858, #2af0ea, #397684, #040404);
+    background-size: 400% 400%;
+    animation: glowing 3s infinite ease-in-out;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: none;
+}
+
+.social-icon4 {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.75);
+    margin: 20px;
+    font-size: 40px;
+    transition: font-size 0.35s, color 0.35s;
+}
+
+.social-icon4:hover {
+    font-size: 60px;
+    color: transparent;
+    background: linear-gradient(to right,
+            #651fff, #6d2aff, #7c40ff, #9b6dff);
+    background-size: 400% 400%;
+    animation: glowing 3s infinite ease-in-out;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: none;
+}
+
+.icon-container {
+    margin-top: 10px;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
