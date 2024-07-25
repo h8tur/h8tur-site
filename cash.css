@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     font-family: Helvetica, Arial, sans-serif;
     height: 100%;
     margin: 0;
@@ -9,29 +10,28 @@ html, body {
     background-color: #161616;
     overflow: hidden;
     transform: scale(1.25);
-    }
+}
 
-    container {
+container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 90%;
-    }
+}
 
-    .square {
+.square {
     position: relative;
     width: 305px;
     height: 305px;
-    background: linear-gradient(
-    to right,
-    #00cf31, #00a727, #008b21, #00a727, #00cf31);
+    background: linear-gradient(to right,
+            #00cf31, #00a727, #008b21, #00a727, #00cf31);
     background-size: 200% 200%;
     animation: glowing 3s infinite ease-in-out;
     border-radius: 25px;
-    }
+}
 
-    .overlay-image {
+.overlay-image {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -39,28 +39,30 @@ html, body {
     max-width: 100%;
     max-height: 100%;
     border-radius: 17px;
-    }
+}
 
-    h1 {
+h1 {
     text-align: center;
     margin-bottom: 20px;
-    }
-    
-    h3 {
+}
+
+h3 {
     text-align: center;
     color: #353535;
     margin-top: 0px;
     margin-bottom: 20px;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 50%;
     }
 
-    @keyframes glowing {
-    0% {
-    background-position: 0 50%;
-    }
     50% {
-    background-position: 100% 50%;
+        background-position: 100% 50%;
     }
+
     100% {
-    background-position: 0 50%;
+        background-position: 0 50%;
     }
-    }
+}

@@ -12,10 +12,10 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Helvetica', sans-serif;
-    }
+}
 
-    @keyframes transitionIn {
-    from{
+@keyframes transitionIn {
+    from {
         opacity: 0;
         transform: rotateX(-10deg);
     }
@@ -25,10 +25,10 @@ body {
         transform: rotateX(0);
     }
 
-    }
+}
 
-    @keyframes slideInBottom {
-    from{
+@keyframes slideInBottom {
+    from {
         transform: translateY(20px);
     }
 
@@ -36,24 +36,24 @@ body {
         transform: translateY(0);
     }
 
-    }
+}
 
-    body {
+body {
     animation: transitionIn 0.75s
-    }
+}
 
-    .container {
+.container {
     animation: slideInBottom 0.75s ease;
-    }
+}
 
-    header {
+header {
     font-family: 'Helvetica', sans-serif;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    }
+}
 
-    h1 {
+h1 {
     font-family: 'Helvetica', sans-serif;
     text-align: center;
     font-size: 3.75em;
@@ -62,45 +62,44 @@ body {
     color: #fff;
     text-shadow: 0 0 25px rgba(255, 255, 255, 0.75);
     transition: font-size 0.35s, font-weight 0.35s, margin-bottom 0.35s, margin-top 0.35s, color 0.35s;
-    }
+}
 
-    h1:hover {
+h1:hover {
     font-family: 'Helvetica', sans-serif;
     font-size: 4.75em;
     font-weight: bold;
     margin-bottom: 5px;
     margin-top: 40px;
     color: transparent;
-    background: linear-gradient(
-    to right,
-    #0a5c36, #0f5132, #14452F, #18392b, #1d2e28, #18392b, #14452F, #0f5132, #0a5c36);
+    background: linear-gradient(to right,
+            #0a5c36, #0f5132, #14452F, #18392b, #1d2e28, #18392b, #14452F, #0f5132, #0a5c36);
     background-size: 400% 400%;
     animation: glowing 3s infinite ease-in-out;
     text-shadow: 0 0 25px rgb(0, 0, 0, 0);
     -webkit-background-clip: text;
     background-clip: text;
-    }
+}
 
-    header a {
+header a {
     text-decoration: none;
-    }
+}
 
-    .profile-picture {
+.profile-picture {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-bottom: -25px;
     transition: width 0.35s, height 0.35s, margin-bottom 0.35s;
-    }
+}
 
-    .profile-picture:hover {
+.profile-picture:hover {
     width: 210px;
     height: 210px;
     border-radius: 50%;
     margin-bottom: -25px;
-    }
+}
 
-    .social-icon1 {
+.social-icon1 {
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -108,22 +107,21 @@ body {
     margin: 20px;
     font-size: 40px;
     transition: font-size 0.35s, color 0.35s;
-    }
+}
 
-    .social-icon1:hover {
+.social-icon1:hover {
     font-size: 60px;
     color: transparent;
-    background: linear-gradient(
-    to right,
-    #1DA1F2, #1781c4, #1DA1F2);
+    background: linear-gradient(to right,
+            #1DA1F2, #1781c4, #1DA1F2);
     background-size: 400% 400%;
     animation: glowing 3s infinite ease-in-out;
     -webkit-background-clip: text;
     background-clip: text;
     text-shadow: none;
-    }
+}
 
-    .social-icon2 {
+.social-icon2 {
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -131,22 +129,21 @@ body {
     margin: 20px;
     font-size: 40px;
     transition: font-size 0.35s, color 0.35s;
-    }
+}
 
-    .social-icon2:hover {
+.social-icon2:hover {
     font-size: 60px;
     color: transparent;
-    background: linear-gradient(
-    to right,
-    #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    background: linear-gradient(to right,
+            #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
     background-size: 400% 400%;
     animation: glowing 3s infinite ease-in-out;
     -webkit-background-clip: text;
     background-clip: text;
     text-shadow: none;
-    }
+}
 
-    .social-icon3 {
+.social-icon3 {
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -154,22 +151,21 @@ body {
     margin: 20px;
     font-size: 40px;
     transition: font-size 0.35s, color 0.35s;
-    }
+}
 
-    .social-icon3:hover {
+.social-icon3:hover {
     font-size: 60px;
     color: transparent;
-    background: linear-gradient(
-    to right,
-    #040404, #fe2858, #2af0ea, #397684, #040404);
+    background: linear-gradient(to right,
+            #040404, #fe2858, #2af0ea, #397684, #040404);
     background-size: 400% 400%;
     animation: glowing 3s infinite ease-in-out;
     -webkit-background-clip: text;
     background-clip: text;
     text-shadow: none;
-    }
+}
 
-    .social-icon4 {
+.social-icon4 {
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -177,33 +173,34 @@ body {
     margin: 20px;
     font-size: 40px;
     transition: font-size 0.35s, color 0.35s;
-    }
+}
 
-    .social-icon4:hover {
+.social-icon4:hover {
     font-size: 60px;
     color: transparent;
-    background: linear-gradient(
-    to right,
-    #651fff, #6d2aff, #7c40ff, #9b6dff);
+    background: linear-gradient(to right,
+            #651fff, #6d2aff, #7c40ff, #9b6dff);
     background-size: 400% 400%;
     animation: glowing 3s infinite ease-in-out;
     -webkit-background-clip: text;
     background-clip: text;
     text-shadow: none;
-    }
+}
 
-    .icon-container {
+.icon-container {
     margin-top: 10px;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 50%;
     }
 
-    @keyframes glowing {
-    0% {
-    background-position: 0 50%;
-    }
     50% {
-    background-position: 100% 50%;
+        background-position: 100% 50%;
     }
+
     100% {
-    background-position: 0 50%;
+        background-position: 0 50%;
     }
-    }
+}
