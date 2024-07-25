@@ -54,7 +54,7 @@ h3 {
     height: 200%;
     background: linear-gradient(to right,
             #f2a900, #d38f00, #b47500, #965d00, #b47500, #d38f00, #f2a900);
-    background-size: 200% 200%;
+    background-size: 350% 350%;
     animation: glowing 3s infinite ease-in-out;
     top: -50%;
     left: -50%;
@@ -91,7 +91,7 @@ h3 {
     height: 200%;
     background: linear-gradient(to right,
             #dbc9ff, #36325e, #3a1b5a, #36325e, #dbc9ff);
-    background-size: 200% 200%;
+    background-size: 350% 350%;
     animation: glowing 3s infinite ease-in-out;
     top: -50%;
     left: -50%;
@@ -128,7 +128,7 @@ h3 {
     height: 200%;
     background: linear-gradient(to right,
             #00cf31, #00a727, #008b21, #00a727, #00cf31);
-    background-size: 200% 200%;
+    background-size: 350% 350%;
     animation: glowing 3s infinite ease-in-out;
     top: -50%;
     left: -50%;
