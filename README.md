@@ -21,5 +21,3 @@ After completing h8tur-site, I am eager to:
 - Dive deeper into responsive web design
 - Learn JavaScript for more interactive elements
 - Explore frameworks and libraries like Bootstrap
-
-*Any criticism you can hit my twitter in my site bio but other than that I appreciate your time if you took the interest to read this.*
